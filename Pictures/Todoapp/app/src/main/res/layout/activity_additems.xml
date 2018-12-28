@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    android:background="@drawable/s2"
+
+android:orientation="vertical"
+tools:context=".additems">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="sans-serif"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        >
+
+
+        <EditText
+            android:id="@+id/item"
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_round"
+            android:divider="#0e7397"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorAccent"
+            android:textSize="22dp"
+            tools:text="Enter Item" />
+
+
+        <Button
+            android:id="@+id/addbutton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_round"
+            android:fontFamily="cursive"
+            android:text="Add" />
+
+    </LinearLayout>
+
+
+
+
+<ListView
+    android:id="@+id/listitem"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="12dp"
+    android:divider="#067116"
+    android:dividerHeight="1dp"
+    >
+</ListView>
+
+
+
+
+
+</LinearLayout>
+
+
+
+
